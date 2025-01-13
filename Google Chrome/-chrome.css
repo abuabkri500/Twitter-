@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .k:focus-within .color{
+    display: flex;
+} */
+.color{
+    width: 330px;
+    height: 90vh;
+    border-radius: 10px;
+    border: 1px solid grey;
+    /* display: none; */
+}
+.my{
+    padding-left: 85px;
+}
+.mi{
+    padding: 0 0px 0 5.8px;
+}
+.sky{
+    background-color:rgba(48, 48, 233, 0.646);
+    height: 15vh;
+    width: auto;
+
+}
+.k{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4vh;
+    justify-content: center;
+
+}
+.tab{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4vh 0 0 120px;
+}
+data{
+    display:flex;
+    gap: 13.4px;
+}
+.ab{
+    color: white;
+    background-color: rgba(0, 0, 128, 0.913);
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.tav{
+    background-color: rgb(150, 184, 197);
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+}
+.ta{
+    display: flex;
+    gap: 22px;
+}
+.vat{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.ss{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.tt{
+    background-color: rgba(0, 0, 128, 0.84);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 270px;
+    height: 8vh;
+    border: none;
+}
+.iv{
+    display: flex;
+    gap: 14.7px;
+}
+.di{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.bord{
+    border-top: 1.8px solid skyblue;
+}
+.edit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}

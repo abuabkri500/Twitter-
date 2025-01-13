@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding:0px;
+    overflow: none;
+}.a{
+    display: flex;
+    gap: 327px;
+    height: 13vh;
+}
+.b{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.c{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 130px;
+}
+.d{
+    width: 120px;
+    height: 4.88vh;
+    padding-top: 4vh;
+    margin-left: 40px;
+}
+.e{
+    padding: 90px;
+    width: 1080px;
+    
+}
+.h{
+    width: auto;
+    height: 1.3vh;
+    background-color: rgb(243,243,243);
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0);
+    border-image: 100px;
+}
+.i{
+    border: 7px solid;
+    border-color: rgb(7, 0, 0);
+    width: 600px;
+    height: 70vh;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Isimi-lagos.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+
+}
+.j{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    color: white;
+    font-size: 37px;
+    
+}
+.k{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 18.9px;
+    width: 700px;
+    padding-left: 65px;
+}
+.l{
+    border: 7px solid;
+    border-color: rgb(7, 0, 0);
+    width: 600px;
+    height: 70vh;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./template.jpg);
+    background-position: center;
+    background-size: cover;
+    width: auto;
+}
+.m{
+    width: auto;
+    height: 50vh;
+    background-color: rgb(0,0,0);
+    padding: 100px;
+}
+.n{
+    padding-top: 100px;
+    display: flex;
+    gap: 35px;
+}
+.P{
+    color: rgba(230, 230, 250, 0.516);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16.9px;
+}
+.q{
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    width: 250px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 3px solid rgba(0, 0, 0, 0.438);
+            border-width: 3px;
+        }
+
+        body {
+            display: flex;
+            margin-top: 180px;
+            justify-content: center;
+        }
+        body{
+              background-color:  rgb(80, 7, 249);
+        }
+        table{
+            background-color:  rgb(2, 213, 255);
+        }
+        tbody{
+            background-color:  rgb(7, 124, 249);
+        }
+        thead{
+            background-color: rgb(7, 31, 249) ;
+        }
+        th{
+            background-color: rgb(0, 76, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+                <!-- <th>Time Table</th>
+                <th>Time Table</th>
+                <th>Time Table</th>
+                <th>Time Table</th>
+                <th>Time Table</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <!-- <td>Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <thead></thead>
+            <tr>
+                <!-- <td>Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <!-- <td>Hours</td> -->
+                <th colspan="5">Lunch</th>
+                <!-- <th>Lunch</th>
+                <th>Lunch</th>
+                <th>Lunch</th>
+                <th>Lunch</th> -->
+            </tr>
+            <tr>
+                <!-- <td>Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td rowspan="2" colspan="2" style="padding: 20px;">Project</td>
+                <!-- <td>Project</td> -->
+            </tr>
+            <tr>
+                <!-- <td>Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <!-- <td colspan="2">Project</td> -->
+                <!-- <td>Project</td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

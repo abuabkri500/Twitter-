@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .trans{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            transition: all 1s linear;
+        }
+        .trans:hover{
+            transform: translate(200px, 100px);
+        }
+        .contain{
+            background-color: rebeccapurple;
+            width: 200px;
+            height: 200px;
+            transition: all 1s linear;
+        }
+        .contain:hover{
+            transform: rotate(200deg);
+        }
+        .zoom{
+            background-color: dodgerblue;
+            width: 200px;
+            height: 200px;
+            transition: all 1s linear;
+        }
+        .zoom:hover{
+            transform: scale(0.5);
+        }
+        .slat{
+            background-color: orangered;
+            width: 200px;
+            height: 200px;
+            transition: all 1s linear;
+        }
+        .slat:hover{
+            transform: skew(200deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="trans"></div>
+    <div class="contain"></div>
+    <div class="zoom"></div>
+    <div class="slat"></div>
+</body>
+</html>

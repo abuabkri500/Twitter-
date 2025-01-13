@@ -1,0 +1,722 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.A {
+    width: 70px;
+    margin-left: 80px;
+    display: flex;
+}
+.material-symbols-outlined{
+    color:blue ;
+}
+.B {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.C {
+    margin-left: 57px;
+    margin-top: 0px;
+}
+
+.D {
+    margin-top: 15px;
+    margin-right: 120px;
+    display: flex;
+    gap: 60px;
+}
+
+.E {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.F {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.G {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.H {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.I {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.J {
+    background: none;
+    border: none;
+    color: navy;
+    font-size: 20px;
+}
+
+.P {
+    display: none;
+    border: 1px solid;
+    border-radius: 2.3px;
+    text-decoration:rgba(0, 0, 0, 0.756);
+    background-color: rgb(255, 253, 243);
+    position: absolute;
+    flex-direction: column;
+    text-decoration-color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p {
+    display: none;
+    border: 1px solid;
+    border-radius: 2.3px;
+    text-decoration:rgba(0, 0, 0, 0.756);
+    background-color: rgb(255, 253, 243);
+    position: absolute;
+    flex-direction: column;
+    text-decoration-color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p {
+    display: none;
+    border: 1px solid;
+    border-radius: 2.3px;
+    text-decoration:rgba(0, 0, 0, 0.756) ;
+    background-color: rgb(255, 253, 243);
+    position: absolute;
+    flex-direction: column;
+    text-decoration-color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p {
+    display: none;
+    border: 1px solid;
+    border-radius: 2.3px;
+    text-decoration:rgba(0, 0, 0, 0.756);
+    background-color: rgb(255, 253, 243);
+    position: absolute;
+    flex-direction: column;
+    text-decoration-color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.o:hover .p {
+    display: flex;
+    width: auto;
+}
+
+.Q {
+    margin-top: 4.5vh;
+    font-size: 88px;
+    width: 580px;
+    color: rgba(0, 14, 66, 0.87);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.R {
+    width: 480px;
+    height: 85vh;
+}
+
+.everything {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(0, 32, 138);
+    color: white;
+    border-radius: 8.5px;
+    height: 9vh;
+    width: 122px;
+    border: 1px solid;
+    border-color: blue;
+}
+
+.background {
+    background-color: rgb(255, 253, 243);
+    border: none;
+}
+
+.span {
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.socialicon {
+    width: 42px;
+    height: 35px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialicon:hover.socialicon {
+    width: 35px;
+    cursor: pointer;
+}
+.z{
+    text-decoration: none;
+     color: (0,14,66);
+}
+.start{
+    color:rgba(5, 8, 84, 0.888);
+    font-size: 47px;
+    margin-left:120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.picture{
+    display: flex;
+    gap: 80px;
+    width: auto;
+    height: 50vh;
+    margin-right:110px;
+    margin-left:120px;
+}
+.down{
+    margin-right:110px;
+    margin-left:120px;
+}
+.thirdH{
+    color: rgb(0,14,84);
+    display: flex;
+    gap: 110px;
+    width:auto;
+    font-size: 20px;
+    margin-right:110px;
+    margin-left:120px;
+    text-align: center;
+}
+.google{
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.interswith{
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.andela{
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.boxes{
+    gap: 90px;
+    width:1000px;
+    margin-right:110px;
+    margin-left:120px;
+    display: flex;
+
+}
+.Direct{
+    width: 320px;
+    color:rgba(0, 0, 0, 0.626);
+    background-color: white;
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 7px;
+    font-size: 17px;
+}
+.systemspecs{
+    margin-right:110px;
+    margin-left:120px;
+    display: flex;
+    gap: 288px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.776);
+}
+.Down:hover.systemspecs{
+    color: orangered;
+}
+.moneymie{
+    display: flex;
+    margin-right:110px;
+    margin-left:120px;
+    gap: 65px;
+
+}
+.paystack{
+    width: 300px;
+    font-size: 17.5px;
+    
+}
+.crediton{
+    color: rgba(33, 80, 111, 0.776);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.medilery{
+    color: rgb(60,169,243);
+    height: 3px;
+}
+.porkfund{
+    font-size: 14.6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.591);
+}
+.edozzier{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.oh{
+    margin-left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.oh:hover .of{
+    color: orangered;
+}
+.systemspecs:hover .create{
+    color: blue;
+}
+.systemspecs:link .create{
+    color: blue;
+}
+.firstbox{
+    height: 110vh;
+    width: 450px;
+    border: 1.35px solid;
+    border-color: black;
+    border-radius: 13px;
+    background-color:rgb(213,234,243) ;
+    margin-left: 130px;
+    box-shadow: 1px 1px 2px red, 0 0 25px green, 0 0 5px blue;
+    
+}
+.secondbox{
+    height: 110vh;
+    width: 450px;
+    border: 1.35px solid;
+    border-color: black;
+    border-radius: 13px;
+    background-color:rgb(238,239,189);
+    margin-right: 100px;
+    margin-bottom:  15vh;
+    box-shadow: 1px 1px 2px red, 0 0 25px green, 0 0 5px blue;
+    
+}
+.thirdbox{
+    height: 120vh;
+    width: 450px;
+    border: 1.35px solid;
+    border-color: black;
+    border-radius: 13px;
+    background-color:rgb(224,213,192) ;
+    margin-left: 130px;
+    box-shadow: 1px 1px 2px red, 0 0 25px green, 0 0 5px blue;
+    
+}
+.fouthbox{
+    height: 120vh;
+    width: 450px;
+    border: 1.35px solid;
+    border-color: black;
+    border-radius: 13px;
+    background-color:rgb(223,213,232);
+    margin-right: 100px;
+    margin-bottom:  15vh;
+    box-shadow: 1px 1px 2px red, 0 0 25px green, 0 0 5px blue;
+}
+.allbox{
+    display: flex;
+    gap: 95px;
+}
+.border{
+    width: 325px;
+    height: 275px;
+    padding-top: 8vh;
+    padding-left: 65px;
+    padding-right: 85px;
+    border-top-right-radius: 20%;
+
+}
+.noble{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.792);
+    font-size: 15px;
+    padding-top: 4vh;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nobles{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 18px;
+    padding-top: 4vh;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.guides{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.842);
+    font-size: 18px;
+    padding-top: 4vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.noble:link.cause{
+     color: blue;
+}
+.noble:hover.cause{
+    color: orangered;
+}
+.cause{
+    padding-left: 40px;
+}
+.guide{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.792);
+    font-size: 15px;
+    padding-top: 4vh;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.leader{
+    padding-left:40px ;
+}
+.National{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 550px;
+    margin-left: 120px;
+}
+.helps{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 110px;
+    gap: 120px;
+}
+.help{
+    width: 165px;
+}
+.comitte{
+    height: 80vh;
+    width: 1260px;
+    background-image: url(./sqi22.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.allcomit{
+    background-image: url(./sqi37.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width:330px;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+
+}
+.column{
+    display: block;
+}
+.campus{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+}
+.feel{
+    font-size: 30px;
+    color: aliceblue;
+
+}
+.Laptop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.877);
+}
+.phone{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.806);
+    width: 600px;
+}
+
+.arise{
+    border: 2px solid;
+    width: 300px;
+    height: 56vh;
+}
+.compatiort{
+    border: 2px solid;
+    width: 280px;
+    height: 46vh;
+}
+.obey{
+    border: 2px solid;
+    width: 280px;
+    height: 46vh;
+}
+.hands{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+}
+.virtual{
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.twotwo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.808);
+    width: 195px;
+    
+}
+.snap{
+    width: 63vh;
+}
+.based{
+    height: 120vh;
+}
+.slept{
+    color: rgba(0, 0, 0, 0.872);
+    width:200px ;
+    font-size: 17px;
+    
+}
+.sleep{
+    height: 37vh;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 22.5px;
+}
+.lofty{
+    background-color: rgb(9,3,38);
+    height: 90vh;
+    width: auto;
+    }
+.chargers{
+   display: flex;
+   margin-left: 120px;
+   padding-top: 7.5vh;
+
+}
+.charger{
+    width: 500px;
+}
+.yellow{
+    color:rgb(208,148,3) ;
+    font-size: 35px;
+    
+}
+.wheat{
+    color: whitesmoke;
+    font-size: large;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whitesmoke{
+    color: aliceblue;
+    font-size: 45px;
+}
+.whitesomke{
+    color: aliceblue;
+    font-size: 30px;
+}
+.buhari{
+     background-color:rgb(0,11,63);
+     height: 78vh;
+     width: auto;
+}
+.mariam{
+   padding-left: 100px;
+   padding-top: 17vh;
+}
+.yusuf{
+   color: whitesmoke;
+   font-size: 22px;
+}
+.aminah{
+   color: whitesmoke;
+   font-size: 45px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quadri{
+   color: whitesmoke;
+   width: 500px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.abubakri{
+   color: whitesmoke;
+   background-color: rgb(0,32,138);
+   border-radius: 30px;
+   width: 140px;
+   height: 10vh;
+   padding: 10px;
+   border: none;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+}
+.mummy{
+   display: flex;   
+   justify-content: space-between; 
+   margin-left: 110px;
+   margin-right: 120px;
+}
+.aisha{
+   height: 90vh;
+   width: 338px;
+   background-color: antiquewhite;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius:5px;
+   border: 1px solid;
+   border-color: black;
+   box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+
+}
+.fathia{
+   height: 98.6vh;
+   width: 338px;
+   background-color: antiquewhite;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius:5px;
+   border: 1px solid;
+   border-color: black;
+   box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+.tumishe{
+   height: 90vh;
+   width: 338px;
+   background-color:antiquewhite;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius:5px;
+   border: 1px solid;
+   border-color: black;
+   box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
+.muiz{
+    height: 40vh;
+    width: 338px;
+}
+.finalyear{
+     display: flex;
+     flex-direction: row;
+     gap: 70px;
+     margin-left: 60px;
+}
+.yahoo{
+   font-size: 17px;
+   color: black;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.agba{
+   color: rgb(247,130,154);
+   padding-left: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.plus{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgba(0, 0, 0, 0.744);
+   padding-left: 28px;
+   padding-right: 28px;
+
+}
+.tunde{
+   color: rgba(0, 0, 255, 0.918);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   margin-left: 95px;
+   width: 170px;
+}
+.roqib{
+    margin-left: 95px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 170px;
+}
+.abbey{
+    width: 37px;
+    height: 3.75vh;
+    gap: 17px;
+}
+.chairman{
+    display: flex;
+    color: thistle;
+    margin-left: 95px;
+}
+.teslim{
+   font-size: 17px;
+   color: black;
+   margin-left: 95px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ajadi{
+   color: rgb(52,163,242);
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ogbeni{
+    color: rgba(0, 0, 0, 0.952);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18.6px;
+}
+.sup{
+    color: rgba(0, 0, 0, 0.719);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16.8px;
+    width: 180px;
+}
+.serious{
+    display: flex;
+    gap: 40px;
+
+}
+.oga{
+   width: 270px;
+}
+.lastlast{
+   background-color: rgb(5,0,68);
+   width: auto;
+   height: 10vh;
+   padding-top: 4vh;
+   padding-left: 46px;
+   color: white;
+   font-size: 18px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+

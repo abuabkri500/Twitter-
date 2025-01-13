@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Class</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            background-color: green;
+
+
+        }
+
+        .box:hover {
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+        .name {
+            text-decoration: underline;
+        }
+
+        .href {
+            text-decoration: none;
+        }
+
+        #href:visited {
+            color: red;
+        }
+
+        #href:link {
+            color: orange;
+        }
+
+        #name:focus {
+            background-color: red;
+            color: white;
+        }
+
+        #box {
+            width: 150px;
+            height: 150px;
+            background-color: brown;
+        }
+
+        #box:active {
+            background-color: rgb(234, 86, 23);
+        }
+
+        .drop {
+            background-color: purple;
+            color: white;
+            display: none;
+        }
+
+        .container:focus-within .drop {
+            display: block;
+        }
+        .parent{
+          background-color: transparent;
+          border: none;
+        }
+        .down{
+            display: none;
+        }
+        .parent:focus .down{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="name">Abubakri</div>
+    <a href="" class="href">Abubakri</a>
+    <a href="#" id="href">link of SQI</a>
+    <button id="name">Clickme!!!</button>
+    <div id="box"></div>
+    <div class="container">
+        <input type="text">
+        <div class="drop">
+            <p>am here!!!</p>
+            <p>am here!!!</p>
+            <p>am here!!!</p>
+        </div>
+    </div>
+    <button class="parent">
+    <div>About</div>
+    <div class="down">
+    <div>SQI</div>
+    <div>SQI</div>
+    <div>SQI</div>
+</div>
+    </button>
+
+</body>
+
+</html>

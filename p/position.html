@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static{
+            background-color: aquamarine;
+            position: static;
+            right: 0;
+        }
+
+        .relative{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 40px;
+            display: none;
+            /* z-index: -1; */
+            /* z-index: 1; */
+        }
+
+        /* .absolute{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        } */
+        .contain{
+            position: relative;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            display: none;
+            position: absolute;
+            left: 0;
+        }
+        .contain:hover .box{
+            display: block;
+        }
+        .shape{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            visibility: hidden;
+            transition: all 1s ease-out 1s;
+        }
+        .parent:hover .shape{
+            visibility: visible;
+        }
+        .fixed{
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            position: fixed;
+            top: 50%;
+            right: 50%;
+            z-index: -1;
+            /* opacity: 0.2; */
+            visibility: collapse;
+        }
+        .sticky{
+            width:80px ;
+            height:80px ;
+            background-color: burlywood;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">postion static</div>
+    <div class="relative">Relative</div>
+    <div class="absolute">Absolute</div>
+    <div class="contain">
+        <div>About</div>
+        <div class="box"></div>
+        
+    </div>
+    <div class="parent">
+        <div>contact us</div>
+        <div class="shape"></div>
+    </div>
+    <div class="fixed"></div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quo vel doloremque sed maiores, cupiditate tempore nam distinctio officia cumque repellat obcaecati dolores, impedit saepe ipsa. Id praesentium rerum hic.
+    Nesciunt assumenda iste fugit perspiciatis ea impedit, sapiente tenetur fugiat aliquid voluptatibus, tempore blanditiis nemo debitis soluta consectetur sed, eum ipsam possimus rem. Quidem assumenda inventore cum, eligendi exercitationem ea?
+    Voluptatem maiores quod nisi excepturi quas totam fugiat quia odit possimus. Nemo sit et vitae est dolore repellat vero ipsam, libero doloremque dicta accusantium expedita saepe sint vel harum reprehenderit?</p>
+    <div class="sticky"></div>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt hic veniam pariatur sunt nulla quibusdam recusandae cum dolor vel? Ex illo veritatis illum quasi quod, iste iure. Facilis, molestiae.
+    Harum ut delectus molestiae ratione necessitatibus cumque quidem voluptatum quibusdam quo alias ipsum distinctio, error, iusto explicabo a eaque neque. Sint at labore quia repudiandae, suscipit hic laboriosam eveniet nostrum.
+    Voluptatem ratione nihil tempora, voluptatibus eos accusamus inventore aliquid hic deleniti cupiditate temporibus dolores aliquam illum tempore quaerat mollitia consequatur a labore dolor, maxime, asperiores minima! Consequatur quasi deleniti ratione.
+    Rerum voluptatum placeat reiciendis quos blanditiis magni distinctio voluptas. Assumenda earum, odit provident possimus aut reprehenderit itaque ea placeat culpa sequi dolor unde ex nulla facilis suscipit eius minima doloremque.
+    Voluptatem praesentium, dolore deserunt reprehenderit distinctio libero mollitia, ad blanditiis aliquam nostrum similique quam. Omnis, quis quos rerum ipsum ad nam facilis, nulla debitis error, quo aspernatur necessitatibus labore sequi.
+    Odio, quas? Nostrum quo suscipit alias iusto dolor enim dolores earum fugiat et, dignissimos saepe! Eveniet similique saepe, deserunt sequi reprehenderit quia quo placeat laborum fugit, impedit obcaecati cupiditate facilis.
+    Aspernatur praesentium doloribus, velit modi recusandae tempora aliquam assumenda neque deleniti aliquid unde facilis perferendis repellendus ducimus porro. Culpa adipisci totam iure temporibus ducimus vitae autem distinctio blanditiis harum unde.
+    Eligendi corporis tempore accusantium. Iusto velit itaque dignissimos. Recusandae, nam reiciendis. Facilis, corrupti sunt. Sapiente maiores ea id, voluptatem, deserunt nam laborum sit accusamus facilis laudantium suscipit reiciendis quae voluptatibus.</h1>
+</body>
+</html>

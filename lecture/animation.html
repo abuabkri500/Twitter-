@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            background: linear-gradient(blue,red);
+            background-repeat: no-repeat;
+            height: 100vh;
+            animation-name: change;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+        }
+    
+        .signal{
+            border: 1.8px solid grey;
+            background-color: blue;
+            width: 200px;
+            height: 8vh;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            animation: move 2s ease-in-out 1s infinite backwards;
+            transition: all 1s ease 0.3s;
+
+        }
+        @keyframes change {
+            from{
+                background: linear-gradient(plum,orangered);
+            }
+            to{
+                background: linear-gradient(dodgerblue,rebeccapurple);
+            }
+        }
+        @keyframes move {
+            0%{
+                transform: translate(800px 800px);
+            }
+            25%{
+                transform: translate(1100px, 300px);
+            }
+            50%{
+                transform: translate(300px, 600px);
+                
+            }
+            100%{
+                transform: translate(200px,200px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- animation name -->
+     <!-- animation duration -->
+      <!-- animation delay -->
+       <!-- animation interation-count -->
+        <div class="signal">No signal</div>
+</body>
+</html>

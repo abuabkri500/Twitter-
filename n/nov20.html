@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 500px;
+            background-color: cadetblue;
+            display: flex;
+            gap: 5px;
+            overflow: auto;
+        }
+
+        .square {
+           min-width: 100px;
+            height: 100px;
+            background-color: rgb(245, 25, 25);
+        }
+        .con{
+            width: 400px;
+            background-color: crimson;
+            color: wheat;
+            height: 100px;
+            overflow: auto;
+            /* scrollbar-width: none; */
+        }
+        .con::-webkit-scrollbar{
+            /* overflow: hidden; */
+            /* display: none; */
+        }
+        /* how to style overflow */
+        .con::-webkit-scrollbar{
+              border-radius: 10px;
+              /* background-color: brown; */
+              width: 5px;
+        }
+        .con::-webkit-scrollbar-thumb{
+            background-color: rgb(255, 251, 0);
+            border-radius: 10px;
+            height: 25px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            transition-delay: 1s;
+            transition-duration: 2s;
+            transition-property:all;
+            transition-timing-function:ease-in;
+        }
+        .box:hover{
+            background-color: gold;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .sekinah{
+            background-image: url(../../../whatsapp-512.png);
+            width: 100px;
+            height: 100px;
+            transition-delay: 1s;
+            transition-duration: 2s;
+            transition-property:all;
+            transition-timing-function:ease-in;
+        }
+        .sekinah:hover{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .d{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+
+}
+.c{
+    display: flex;
+    gap: 10px;
+    margin: -100% 0 0 0;
+    transition: all 2s ease-in 1s;
+}
+.b:focus-within .c{
+    margin: 0;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>               
+    <div class="con">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur corrupti sint, excepturi voluptatibus architecto quibusdam, deleniti enim earum, repellat ipsa laboriosam dolore vel accusamus et itaque quas minima sapiente eaque.
+        Modi incidunt illum ducimus porro dolorum aut dolorem sunt consequatur perspiciatis officia mollitia ullam iste expedita illo perferendis facere repellat animi vero tenetur eius, fuga dignissimos necessitatibus sequi. Vitae, unde.
+        Quo reprehenderit saepe earum. Impedit eos praesentium numquam, dolor provident aut ab corporis distinctio reprehenderit sit architecto natus soluta doloremque? Accusamus quo cumque enim expedita maiores? Perspiciatis iure laudantium laboriosam?
+        Ut mollitia magni repellat temporibus impedit cum alias voluptatum aspernatur molestiae aliquid voluptatem quasi amet debitis tempore vero recusandae voluptates, cumque ex, provident, nam laudantium reprehenderit facere accusamus odio! Sit!
+        Libero, numquam laborum quos, eveniet provident molestiae id unde error laboriosam necessitatibus modi, cum sit ab officiis perspiciatis debitis qui consequatur voluptatibus atque. Autem, molestiae debitis? Quas vitae quia voluptas!
+        Dolorum, facilis id nesciunt unde ullam earum repudiandae atque eveniet quasi. Itaque deserunt debitis quasi incidunt officiis id tenetur nulla quam dolor similique? Consectetur cum a alias voluptas officiis similique.
+        Cumque facere perspiciatis, velit illum laborum aspernatur vitae quas molestiae commodi accusamus corrupti inventore consequatur laboriosam repellendus enim quos ratione accusantium tempora, expedita iure mollitia ipsa consequuntur. Qui, totam ipsa!</div>
+    </div>     
+    <!-- transition-->
+    <div class="b">
+        <button>click me</button>
+        <div class="c">
+            <div class="d"></div>
+            <div class="d"></div>
+            <div class="d"></div>
+            <div class="d"></div>
+        </div>
+    </div>
+</body>
+
+</html>

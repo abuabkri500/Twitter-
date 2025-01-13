@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+main{
+    background-image: url(./chrome\ image.png);
+    background-position: center;
+    background-size: cover;
+    height: 99.9vh;
+    padding: 15px;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    
+
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center ;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.parent button{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    position: relative;
+
+}
+.tenth{
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+.main:focus-within .third{
+    display: block;
+}
+.third{
+    position: absolute;
+    right: 0;
+    display: none;
+}
+.gog{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    width: 100px;
+    visibility: hidden;
+    position: absolute;
+    right: 20px;
+    left: -20px;
+    top: 40px;
+
+    transition: all 0.5s linear 1s;
+}
+.parent:hover .gog{
+    visibility: visible;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image img{
+    width: 400px;
+}
+.middle{
+    width: 600px;
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+.middle input{
+    width: 500px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 3px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    position: relative;
+    /* background-color: aqua; */
+}
+#vert{
+    margin: 0 0 0 50px;
+    float: right;
+    visibility: hidden;
+    transition: all 1s linear 1s;
+    position: relative;
+}
+#vert:hover button{
+    background-color: rgba(240, 236, 236, 0.534);
+}
+.vert{
+    float: right;
+    /* display: none; */
+}
+#vert button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+}
+.holder{
+    padding: 12px 18px;
+}
+.holder:hover{
+    background-color: rgba(240, 236, 236, 0.534);
+    border-top-right-radius:6px ;
+    border-bottom-right-radius: 6px;
+}
+.holder:hover #vert{
+    visibility: visible;
+}
+.down{
+    display: flex;
+    width: 550px;
+}
+.sup{
+    display: block;
+}
+.parent{
+    position: relative;
+}
+.top-vert{
+    background-color: black;
+    color: white;
+    padding: 6px 0;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    /* right: 5px; */
+    left: -60px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    display: none;
+    transition: all 1s linear 1s;
+}
+.top-vert div:hover{
+    background-color: rgba(240, 236, 236, 0.534);
+}
+#vert:focus-within .top-vert{
+    display: block;
+}
+.dropdown{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+.middle:focus-within{
+    border-radius: 20px 20px 0 0;
+    
+}
+.middle:focus-within .dropdown{
+    display: block;
+}
+.lens{
+    width: 30px;
+    height: 30px;
+}
+.fill:hover{
+    text-decoration:underline;
+}
+.mos{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+}
+.SOM{
+    display: flex;
+    gap: 15px;
+    padding-left: 10px;
+}
+.SOM:hover{
+    background-color: rgba(0, 0, 0, 0.27);
+}
+.ola{
+    width: 280px;
+    height: 50vh;
+    background-color: white;
+    display: none;
+    border-radius: 13px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    flex-direction: column;
+    position: absolute;
+    left: -200px;
+    /* right: 30px; */
+
+}
+.parent:focus-within .ola{
+    display: block;
+}
+.alo{
+    width: 260px;
+    height: 53vh;
+    background-color: rgba(0, 0, 0, 0.407);
+    border-radius: 13px;
+    margin: 7px 0 7px 7px;
+    
+}
+.LOA{
+    border-top: 1.8px solid skyblue;
+}
+.sqi{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+}
+.shop{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.pos{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+}
+.gmi{
+    width: 35px;
+    height: 35px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main:focus-within .third{
+    display: block;
+}
+.color{
+    width: 330px;
+    height: 90vh;
+    border-radius: 10px;
+    border: 1px solid grey;
+    /* display: none; */
+    background-color: whitesmoke;
+    height: 90vh;
+}
+.my{
+    padding-left: 85px;
+}
+.mi{
+    padding: 0 0 0 5.8px;
+}
+.sky{
+    background-color:rgba(48, 48, 233, 0.646);
+    height: 15vh;
+    width: auto;
+
+}
+.k{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4vh;
+    justify-content: center;
+
+}
+.tab{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4vh 0 0 120px;
+}
+data{
+    display:flex;
+    gap: 13.4px;
+}
+.ab{
+    color: white;
+    background-color: rgba(0, 0, 128, 0.913);
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 120px;
+}
+.tav{
+    background-color: rgb(150, 184, 197);
+    width: auto;
+    height: 20vh;
+    border-radius: 10px;
+}
+.ta{
+    display: flex;
+    gap: 22px;
+}
+.vat{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.ss{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.tt{
+    background-color: rgba(0, 0, 128, 0.84);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 270px;
+    height: 8vh;
+    border: none;
+}
+.iv{
+    display: flex;
+    gap: 14.7px;
+}
+.di{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+.bord{
+    border-top: 1.8px solid skyblue;
+}
+.edit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.image{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10vh;
+    color: white;
+
+}
+.hope{
+    padding-right: 15px;
+    display: flex;
+    gap: 8px;
+}
+.soft{
+    width:38px ;
+    height: 32px;
+
+}

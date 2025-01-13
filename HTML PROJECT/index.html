@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="./x s.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: none;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            z-index: 0;
+
+        }
+
+        .x {
+            width: 450px;
+            padding-bottom: 20vh;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+        }
+
+        .column h2 {
+            font-size: 70px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .column p {
+            font-size: 35px;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .apple {
+            width: 27px;
+        }
+
+        .first-button {
+            width: 400px;
+            height: 8vh;
+            border-radius: 10vh;
+            border: none;
+            display: flex;
+            gap: 3px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button {
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+        }
+
+        .or {
+            padding-left: 200px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .create-account {
+            background-color: dodgerblue;
+            color: white;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            width: 400px;
+            height: 8vh;
+            border-radius: 10vh;
+            border: none;
+        }
+
+        mark {
+            color: blue;
+            background-color: transparent;
+        }
+
+        .terms-privacy {
+            color: whitesmoke;
+        }
+
+        .span {
+            width: 420px;
+        }
+
+        .sign-in {
+            background: none;
+            border: 1.5px solid dodgerblue;
+            width: 400px;
+            height: 8vh;
+            border-radius: 10vh;
+            color: dodgerblue;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+
+        .sign-in a {
+            text-decoration: none;
+        }
+
+        .sign-in a:hover {
+            color: black;
+        }
+
+        .sign-in:hover {
+            background-color: dodgerblue;
+        }
+
+        .council {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hr {
+            border-bottom: 1.5px solid white;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            z-index: 1;
+            background-color: black;
+            height: 20vh;
+            width: auto;
+        }
+
+        .under-footer {
+            display: flex;
+            flex-direction: column;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        footer h3 {
+            color: rgba(255, 255, 255, 0.448);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer span {
+            color: rgba(255, 255, 255, 0.448);
+        }
+
+        footer button {
+            width: 50px;
+            height: 6vh;
+            background-color: transparent;
+            border: 1.3px solid white;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <img class="x" src="./x.png" alt="">
+            <div class="column">
+                <h2 class="text-light">Happening now</h2>
+                <p class="text-light">Join today.</p>
+                <button class="first-button">
+                    <img src="./Google__G__logo.svg" alt="">
+                    Sign up with Google
+                </button>
+                <button class="first-button">
+                    <img class="apple" src="./apple.png" alt="">
+                    Sign up with Apple
+                </button>
+                <span class="or">or</span>
+                <button class="create-account">
+                    Create account
+                </button>
+                <div class="span">
+                    <span class="terms-privacy">By signing up, you agree to the <mark>Terms of
+                            Service</mark> and <mark>privacy policy</mark>, including <mark>cookies use.</mark></span>
+                </div>
+                <br>
+                <button onclick="Java()" class="sign-in">
+                    <a href="Formpage.html">sign in</a>
+                </button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+        </div>
+        <br>
+        <footer>
+            <div class="hr"></div>
+            <div class="under-footer">
+                <br>
+                <div class="council">
+                    <h3>Welcome to x.com!</h3>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#5f6368">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg>
+                    </button>
+                </div>
+                <span>We are letting you know that we are changing our URL, but your privacy and data protection
+                    settings remain the same.
+                    For more details, see our Privacy Policy:<mark> https://x.com/en/privacy </mark></span>
+            </div>
+            <footer>
+    </main>
+</body>
+
+</html>
+<script>
+    function  Java() {
+        alert("Sign in gently")
+    }
+
+
+</script>
