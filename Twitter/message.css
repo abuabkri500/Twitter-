@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+
+body{
+    background-color: black;
+}
+
+/* .first-aside-start */
+
+.first-aside {
+    background-color: black;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    /* justify-content: right; */
+    padding-left: 135px;
+    margin-top: 2vh;
+}
+
+.imgs img {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+/* .first-aside-ends */
+
+/* .main-start */
+
+.main{
+    background-color: black;
+}
+
+.message-drop-downs {
+    width: 1200px;
+    height: 99vh;
+    right: -150px;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+}
+
+.message-drop-downs button {
+    background-color: transparent;
+    border: none;
+}
+
+.message-button {
+    display: flex;
+}
+
+.mail-nav {
+    padding: 15px;
+    display: flex;
+    gap: 220px;
+    height: 10vh;
+}
+
+.mail-nav p {
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message-bar {
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    width: 400px;
+    height: 99vh;
+}
+
+.new-message {
+    width: 150px;
+    height: 7.2vh;
+    border-radius: 7.2vh;
+    background-color: dodgerblue;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+}
+
+.new-message p {
+    color: white;
+    font-size: 19px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.settings-and-mail {
+    display: flex;
+    gap: 5px;
+}
+
+.hold-messages {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.under-hold-messages {
+    padding: 15px;
+}
+
+.over-message-input {
+    background-color: transparent;
+    border: 2px solid rgba(128, 128, 128, 0.418);
+    width: 330px;
+    height: 6.5vh;
+    border-radius: 6.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.over-message-input input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.over-message-request {
+    display: flex;
+    gap: 10px;
+}
+
+.message-request {
+    border: 1.5px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.p-on-message-request {
+    color: white;
+    font-size: 19px;
+    font-weight: 550;
+}
+
+.message-background:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s linear;
+}
+
+.message-background {
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.418);
+    border-top: 1.5px solid rgba(128, 128, 128, 0.418);
+    width: auto;
+    padding: 12px;
+    height: 12vh;
+    display: flex;
+    gap: 7px;
+}
+
+.message-background img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.over-menu-and-T-Pain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.over-T-Pain {
+    display: flex;
+    flex-direction: column;
+    line-height: 1vh;
+    padding-top: 1.2vh;
+}
+
+.over-T-Pain span {
+    color: grey;
+}
+
+.T-Pain {
+    display: flex;
+    align-items: baseline;
+}
+
+.T-Pain p {
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.T-Pain img {
+    width: 15px;
+    height: 2.5vh;
+}
+
+.T-Pain span {
+    color: grey;
+}
+
+.more-messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-messages i {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+
+.more-messages i:hover {
+    background-color: white;
+    width: 80px;
+    color: black;
+    height: 5vh;
+    border-radius: 5vh;
+
+}
+
+
+/* .main-ends */
+
+/* .second-aside-start */
+
+.second-aside{
+    background-color: black;
+}
+
+.start-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40vh;
+    padding-left: 80px;
+}
+
+.start-message h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.start-message span{
+    color: grey;
+    width: 450px;
+    text-align: center;
+}
+.start-message button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    width: 170px;
+    border-radius: 8vh;
+    height: 7vh;
+    border: none;
+}
+.under-everything{
+    width: 100%;
+    height: 5vh;
+    display: none;
+}
+.on-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .second-aside-ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1029.33px) {
+    .first-aside{
+        width: 80px;
+    }
+    .imgs{
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .start-message{
+        display: none;
+    }
+    
+    .first-aside{
+        display: none;
+    }
+    .under-everything{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background-color: black;
+        padding-top: 0.7vh;
+        border-top: 1.5px solid rgba(128, 128, 128, 0.347);
+    }
+
+}

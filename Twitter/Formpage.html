@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in to X</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #000;
+        padding: 30px 20px;
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      .logo {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 25px;
+      }
+
+      .social-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 25px;
+        border: none;
+        font-weight: 600;
+        font-size: 15px;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+
+      .social-btn img {
+        width: 20px;
+        height: 20px;
+      }
+
+      .google,
+      .apple {
+        background-color: #fff;
+        color: #000;
+      }
+
+      .divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        color: #666;
+        font-size: 14px;
+      }
+
+      .divider::before,
+      .divider::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #333;
+        margin: 0 10px;
+      }
+
+      .input-box {
+        width: 100%;
+        padding: 12px;
+        background-color: transparent;
+        border: 1px solid #333;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      .input-box::placeholder {
+        color: #aaa;
+      }
+
+      .next-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #e7e9ea;
+        color: #000;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        cursor: pointer;
+      }
+      .next {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .forgot-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #555;
+        border-radius: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom: 30px;
+      }
+
+      .footer-text {
+        font-size: 14px;
+        color: #888;
+      }
+
+      .footer-text a {
+        color: #1d9bf0;
+        text-decoration: none;
+      }
+
+      /* 📱 Responsive Styling */
+      @media (max-width: 480px) {
+        .container {
+          padding: 25px 15px;
+        }
+
+        .logo {
+          font-size: 26px;
+        }
+
+        h2 {
+          font-size: 20px;
+          margin-bottom: 20px;
+        }
+
+        .social-btn {
+          font-size: 14px;
+          padding: 10px 0;
+        }
+
+        .input-box {
+          font-size: 13px;
+          padding: 10px;
+        }
+
+        .next-btn,
+        .forgot-btn {
+          font-size: 14px;
+          padding: 10px;
+        }
+
+        .divider span {
+          font-size: 13px;
+        }
+
+        .footer-text {
+          font-size: 13px;
+        }
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/x s.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">X</div>
+      <h2>Sign in to X</h2>
+
+      <button class="social-btn google">
+        <img
+          src="https://www.svgrepo.com/show/475656/google-color.svg"
+          alt="Google icon"
+        />
+        Sign in with Google
+      </button>
+
+      <button class="social-btn apple">
+        <img
+          src="https://img.icons8.com/ios-filled/24/000000/mac-os.png"
+          alt="Apple icon"
+        />
+        Sign in with Apple
+      </button>
+
+      <div class="divider"><span>or</span></div>
+
+      <input
+        type="text"
+        placeholder="Phone, email, or username"
+        class="input-box"
+      />
+
+      <button class="next-btn"><a class="next" href="Homepage.html">Next</a></button>
+      <button class="forgot-btn">Forgot password?</button>
+
+      <p class="footer-text">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </body>
+</html>

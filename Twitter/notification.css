@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+/* .first-aside-start */
+.first-aside {
+    background-color: black;
+    display: none;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 600px;
+    /* justify-content: right; */
+    padding-left: 135px;
+    margin-top: 2vh;
+}
+
+.imgs img {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+/* .first-aside-ends */
+
+/* .main-start */
+
+.main{
+    background-color: black;
+}
+
+.profile-drop-downs {
+    width: 628px;
+    height: 99.9vh;
+    background-color: black;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+}
+
+.profile-nav {
+    width: 625px;
+    height: 10.5vh;
+    padding: 12px;
+    display: flex;
+    gap: 25px;
+}
+
+.over-arrow-left {
+    line-height: 2vh;
+}
+
+.over-arrow-left h3 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.over-arrow-left span {
+    color: grey;
+}
+
+.main-profile {
+    background-color: rgb(51, 54, 57);
+    width: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 31vh 15px 0 15px;
+}
+
+.under-main-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.over-A {
+    border: 3.5px solid black;
+    background-color: rgb(1, 87, 155);
+    font-size: 50px;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    padding-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-profile {
+    width: 120px;
+    height: 6.5vh;
+    border-radius: 8vh;
+    border: 0.7px solid rgba(255, 255, 255, 0.688);
+    color: white;
+    background-color: transparent;
+    margin-top: 11.5vh;
+    font-size: 17.5px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.details-on-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.abubakri-and-verify {
+    display: flex;
+    gap: 5px;
+}
+
+.abubakri-and-verify p {
+    color: white;
+    font-weight: 540;
+    font-size: 20px;
+}
+
+.get-verified {
+    border: 0.7px solid rgba(255, 255, 255, 0.67);
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 0.3vh;
+    width: 150px;
+    height: 5vh;
+    border-radius: 5vh;
+}
+
+.get-verified p {
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.get-verified img {
+    width: 17px;
+
+}
+
+.first-p {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.over-nick-name {
+    color: grey;
+    line-height: 2vh;
+}
+
+.people-follow {
+    display: flex;
+    gap: 15px;
+}
+
+.people-follow mark {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horizontal-line button {
+    background-color: transparent;
+    color: grey;
+    font-size: 22px;
+    width: 90px;
+    height: 8vh;
+    text-align: center;
+    font-weight: 550;
+}
+
+.horizontal-line button:hover {
+    background-color: rgba(128, 128, 128, 0.659);
+    color: white;
+}
+
+.prfile-border-bottom {
+    border-bottom: 1.7px solid rgba(128, 128, 128, 0.418);
+}
+
+/* .first-on-notification{} */
+
+.notification-nav {
+    width: 635px;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    padding: 2.5vh 20px 0 20px;
+    justify-content: space-between;
+}
+
+.together-of-a-tag {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.together-of-a-tag button {
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+    width: 150px;
+    height: 8vh;
+    background-color: transparent;
+    border: none;
+}
+.together-of-a-tag button:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    color: white;
+}
+.verified-drop-downs{
+    display: none;
+    position: absolute;
+    right: 1px;
+}
+.verified-drop:focus-within .verified-drop-downs{
+    display: block;
+}
+.over-verification-check{
+    display: flex;
+    flex-direction: column;
+    width: 622px;
+    height: 73vh;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    border-top: 1.7px solid rgba(128, 128, 128, 0.418);
+    z-index: 1;
+}
+.over-verification-check img{
+    width: 500px;
+}
+.over-verification-check h1{
+    font-size: 32px;
+    font-weight: 800;
+    width: 450px;
+    color: white;
+}
+.on-a{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.over-verification-check span{
+    color: grey;
+}
+.over-verification-check a{
+    color: grey;
+}
+
+.notification-border-bottom {
+    border-bottom: 1.7px solid rgba(128, 128, 128, 0.418);
+}
+
+.notification-nav p {
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.over-a-drop-downs {
+    padding: 0vh 150px 8vh 0;
+}
+
+.a-drop-downs {
+    display: none;
+}
+
+.over-stranger-dan {
+    border-top: 1.2px solid rgba(128, 128, 128, 0.418);
+    width: 635px;
+    height: 14.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.over-stranger-dan:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s linear;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3%;
+}
+
+.upper img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.stranger-dan {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.1vh;
+}
+
+.under-stranger-dan {
+    display: flex;
+    gap: 5px;
+}
+
+.notification-maher-zain {
+    color: white;
+}
+
+.no-bg-verify {
+    width: 17px;
+}
+
+.blocoperere {
+    color: grey;
+}
+
+.orangered {
+    color: rgba(152, 221, 152, 0.87);
+}
+
+.sky-blue {
+    color: rgb(29, 155, 240);
+}
+
+.down {
+    display: flex;
+    gap: 100px;
+}
+
+
+/* .main-ends */
+
+
+/* .second-aside-start */
+.max-widths {
+    width: 400px;
+}
+
+.second-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2vh;
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+}
+
+.second-aside {
+    padding-top: 1.5vh;
+    padding-left: 20px;
+    /* z-index: -1; */
+    height: auto;
+    background-color: black;
+   
+}
+
+.div-input {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: transparent;
+    width: 320px;
+    border: 2px solid;
+    height: 7.5vh;
+    border-radius: 10vh;
+    background-color: rgba(128, 128, 128, 0.319);
+    border: 1.5px solid;
+    padding-left: 25px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    height: 6vh;
+    width: 250px;
+}
+
+.input-drop {
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    width: 330px;
+    height: 25vh;
+    background-color: transparent;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    display: none;
+}
+
+.subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    background-color: transparent;
+    width: 320px;
+    height: 27vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+.subscribe p {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe span {
+    font-size: 15px;
+    color: white;
+    text-align: start;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1vh;
+}
+
+.button-subscribe {
+    background-color: rgb(29, 155, 240);
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 6.5vh;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.second-subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    background-color: transparent;
+    width: 320px;
+    height: 68vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.what {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.what:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s ease-out;
+}
+
+.happening {
+    line-height: 1.7vh;
+}
+
+h4 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.span {
+    color: grey;
+    font-size: 14.5px;
+}
+
+.show-max {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.thrid-subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.347);
+    background-color: transparent;
+    width: 330px;
+    height: 48vh;
+    border-radius: 5vh;
+    display: flex;
+    gap: 3.3vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.happenings {
+    line-height: 1vh;
+    display: flex;
+    gap: 5px;
+}
+
+.whats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.over-whats:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s ease-out;
+}
+
+.happenings img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.whats span {
+    color: grey;
+    font-size: 14.5px;
+    padding-left: 35px;
+}
+
+.follow button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    font-size: 17px;
+    height: 5.5vh;
+}
+
+.over-whats {
+    display: flex;
+    justify-content: space-between;
+}
+/* .second-aside-ends */
+
+body{
+    background-color: black;
+}
+.under-everything{
+    width: 100%;
+    height: 5vh;
+    display: none;
+}
+.on-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1029.33px) {
+    .first-aside{
+        width: 8%;
+    }
+    .imgs{
+        padding-left: 3%;
+    }
+    .main{
+        width: 580px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .second-aside{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-aside{
+        display: none;
+    }
+    .under-everything{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background-color: black;
+        padding-top: 0.7vh;
+        border-top: 1.5px solid rgba(128, 128, 128, 0.347);
+    }
+}
+@media screen and (max-width: 650px) {
+    /* otisunmi */
+}

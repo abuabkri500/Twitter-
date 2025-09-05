@@ -1,0 +1,1086 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+body{
+    background-color: black;
+}
+.down-aside{
+    display: none;
+}
+/* .first-aside-start */
+
+.first-aside {
+    background-color: black;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    /* justify-content: right; */
+    padding-left: 135px;
+    margin-top: 2vh;
+}
+
+.imgs img {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+/* .first-aside-ends */
+
+/* .main-start */
+
+.main{
+    background-color: black;
+    height: auto;
+}
+
+.everything-about-profile{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+}
+
+.profile-nav {
+    width: 605px;
+    height: 10.5vh;
+    padding: 12px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    gap: 25px;
+    z-index: 1;
+    background-color: black;
+}
+
+.over-arrow-left {
+    line-height: 2vh;
+}
+
+.over-arrow-left h3 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.over-arrow-left span {
+    color: grey;
+}
+
+.main-profile {
+    background-color: rgb(51, 54, 57);
+    width: auto;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 31vh 15px 0 15px;
+}
+
+.under-main-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.over-A {
+    border: 3.5px solid black;
+    background-color: rgb(1, 87, 155);
+    font-size: 50px;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    padding-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-profile {
+    width: 120px;
+    height: 6.5vh;
+    border-radius: 8vh;
+    border: 0.7px solid rgba(255, 255, 255, 0.688);
+    color: white;
+    background-color: transparent;
+    margin-top: 11.5vh;
+    font-size: 17.5px;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.details-on-profile {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.abubakri-and-verify {
+    display: flex;
+    gap: 5px;
+}
+
+.abubakri-and-verify p {
+    color: white;
+    font-weight: 540;
+    font-size: 20px;
+}
+
+.get-verified {
+    border: 0.7px solid rgba(255, 255, 255, 0.67);
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 0.3vh;
+    width: 150px;
+    height: 5vh;
+    border-radius: 5vh;
+}
+
+.get-verified p {
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.get-verified img {
+    width: 16px;
+
+}
+
+.first-p {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.over-nick-name {
+    color: grey;
+    line-height: 2vh;
+}
+
+.people-follow {
+    display: flex;
+    gap: 15px;
+}
+
+.people-follow mark {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.footer-under-profile p{
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+}
+.people-to-follow{
+    border-top: 1.5px solid rgba(128, 128, 128, 0.418);
+    z-index: -1;
+    width: auto;
+    height: 13vh;
+    padding: 5px 15px 0 15px;
+    
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.dee{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.dee img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.top button{
+    background-color: white;
+    color: black;
+    font-size: 19px;
+    height: 6.5vh;
+    border: none;
+    border-radius: 6vh;
+    width: 80px;
+}
+.over-dee{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.75vh;
+}
+.over-dee p{
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+}
+.over-dee span{
+    color: grey;
+    font-size: 15px;
+}
+.down{
+    padding-left: 50px;
+}
+.down span{
+    color: white;
+    font-size: 15.5px;
+}
+.people-to-follow:hover {
+    background-color: rgba(128, 128, 128, 0.659);
+    transition: all 0.35s linear;
+
+}
+.horizontal-line button {
+    background-color: transparent;
+    color: grey;
+    font-size: 18px;
+    width: 70px;
+    height: 7vh;
+    text-align: center;
+    border: none;
+    font-weight: 550;
+}
+.horizontal-line button {
+    transition: all 0.35s linear;
+}
+
+.blue-border{
+    background-color: blue;
+    width: 40px;
+    height: 1.2vh;
+    border-radius: 0.8vh;
+    display: none;
+    margin-left: 15px;
+    /* transition: all 0.5s linear 1s; */
+}
+.blues-border{
+    background-color: blue;
+    width: 30px;
+    height: 1.2vh;
+    border-radius: 0.8vh;
+}
+
+.line-drop-down{
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: 19vh;
+    width: 580px;
+    height: auto;
+    background-color: black;
+    z-index: 1;
+}
+
+.line-container:focus-within .blue-border{
+    display: block;
+}
+
+.line-container:focus-within .line-drop-down{
+    display: block;
+}
+.horizontal-line button:hover {
+    background-color: rgba(128, 128, 128, 0.659);
+    color: white;
+}
+
+.trouble-border{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.418);
+}
+
+/* .replies-start */
+
+.second-main{
+    background-color: black;
+}
+
+.posts-border {
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.418);
+    border-right: 1.5px solid rgba(128, 128, 128, 0.418);
+    border-left: 1.5px solid rgba(128, 128, 128, 0.418);
+    border: 0 1.5px 1.5px 1.5px solid grey;
+    height: auto;
+    width: auto;
+    padding: 25px 25px 12px 25px;
+}
+
+.over-picture-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.first-one {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: green;
+}
+
+.over-verify {
+    display: flex;
+    flex-direction: column;
+    line-height: 4.5vh;
+}
+
+.over-dot {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.verify button {
+    color: white;
+    font-family: 550;
+    border: none;
+    background-color: transparent;
+    font-size: 13.2px;
+}
+
+.verify {
+    display: flex;
+    gap: 2px;
+    align-items: baseline;
+    /* z-index: 0; */
+}
+
+.blue-verify {
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.post-drop-downs {
+    background-color: black;
+    box-shadow: 1px 1px 2px black, 0 0 10px white, 0 0 25px black;
+    width: 300px;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    height: 50.5vh;
+    padding: 18px;
+    border-radius: 5vh;
+    display: none;
+    transition: all 0.5s ease-out;
+    z-index: 1;
+    top: 7vh;
+    position: absolute;
+}
+
+.over--post--dropdowns {
+    text-decoration: none;
+}
+
+.over--post--dropdowns:focus-within .post-drop-downs {
+    display: flex;
+    flex-direction: column;
+}
+
+.real-elon-musk {
+    font-size: 15.5px;
+    color: white;
+    font-weight: 550;
+}
+
+.post-drop-downs p {
+    color: rgba(255, 255, 255, 0.836);
+    font-size: 17px;
+    line-height: 3.5vh;
+}
+
+.under-post-drop-downs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue-roof-drop-downs {
+    display: flex;
+    align-items: center;
+}
+
+.over-blue-roof {
+    display: flex;
+    flex-direction: column;
+}
+
+.over-amounts-of-following-and-followers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amounts-of-following {
+    display: flex;
+    gap: 3px;
+}
+
+.first-amount {
+    color: rgba(255, 255, 255, 0.816);
+}
+
+.second-amount {
+    color: grey;
+}
+
+.followed-by {
+    display: flex;
+    gap: 6px;
+    margin-top: 1.5vh;
+}
+
+.followed-by img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.followed-by p {
+    color: grey;
+}
+
+.over-profile-summary {
+    border: 1px solid rgba(255, 255, 255, 0.701);
+    width: 245px;
+    height: 7vh;
+    background-color: transparent;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    border-radius: 6vh;
+    font-size: 18px;
+    text-align: center;
+}
+
+.over-profile-summary span {
+    color: rgba(255, 255, 255, 0.811);
+}
+
+.post-sentence {
+    font-size: 15px;
+    color: white;
+    width: 497px;
+}
+
+.over-post-image {
+    margin: 10px 15px 5px 40px;
+}
+.over-post-image img{
+    width: 450px;
+    height: 55vh;
+    border-radius: 2vh;
+
+}
+.post-image {
+    width: 490px;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+.post-image-ronaldo {
+    width: 490px;
+    height: 80vh;
+    border-radius: 15px;
+
+}
+
+.second-post-image {
+    width: 490px;
+    height: 40vh;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.seconds-post-image {
+    width: 490px;
+    height: 40vh;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.another-post-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.from {
+    display: flex;
+    justify-content: baseline;
+    padding-left: 40px;
+}
+
+.from-from {
+    color: grey;
+    font-size: 15px;
+}
+
+.under-froms {
+    font-size: 15.5px;
+    color: white;
+    font-weight: 550;
+}
+
+.down-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 7vh;
+}
+
+.reacts {
+    display: flex;
+    gap: 1.5px;
+}
+
+.first-reacts {
+    background-color: rgba(30, 143, 255, 0.5);
+    border-radius: 6px;
+}
+
+.second-reacts {
+    background-color: rgba(0, 128, 0, 0.488);
+    border-radius: 6px;
+}
+
+.third-reacts {
+    background-color: rgba(216, 112, 147, 0.508);
+    border-radius: 6px;
+}
+
+.fouth-reacts {
+    background-color: rgba(255, 68, 0, 0.468);
+    border-radius: 6px;
+}
+
+.reacts span {
+    color: grey;
+    font-size: 16px;
+}
+
+.over-download {
+    display: flex;
+    gap: 8px;
+}
+
+.down-down-footer {
+    background-color: rgb(120, 76, 76);
+    width: auto;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-down-footer em {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: black;
+}
+
+.down-down-footer a {
+    font-size: 22px;
+    color: blue;
+}
+
+
+/* .replies-ends */
+
+.line-container:focus-within .line-drop-downs{
+    display: block;
+}
+
+.line-drop-downs{
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: 10vh;
+    width: 580px;
+    height: auto;
+    background-color: black;
+    z-index: 1;
+}
+
+.under-highlight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    line-height: 0.01vh;
+    gap: 2.5vh;
+}
+
+.under-highlight h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.under-highlight span{
+    color: grey;
+}
+.under-highlight button{
+    background-color: white;
+    height: 8vh;
+    color: black;
+    border: none;
+    border-radius: 7.5vh;
+    width: 250px;
+}
+.line-container:focus-within .line-drop-downss{
+    display: block;
+}
+.line-drop-downss{
+    display: none;
+    position: absolute;
+    right: -1px;
+    top: 10vh;
+    width: 580px;
+    height: auto;
+    background-color: black;
+    z-index: 1;
+}
+.under-highlightS{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: auto;
+    width: auto;
+}
+.under-media{
+    display: flex;
+    gap: 5px;
+}
+
+.under-media img{
+    width: 150px;
+    height: 150px;
+}
+/* .main-ends */
+
+/* .second-aside-start */
+.max-widths {
+    width: 400px;
+}
+
+.second-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2vh;
+    /* position: fixed;
+    top: 0;
+    z-index: 1; */
+}
+
+.second-aside {
+    padding-top: 1.5vh;
+    padding-left: 20px;
+    /* z-index: -1; */
+    height: auto;
+    background-color: black;
+   
+}
+
+.div-input {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: transparent;
+    width: 320px;
+    border: 2px solid;
+    height: 7.5vh;
+    border-radius: 10vh;
+    background-color: rgba(128, 128, 128, 0.319);
+    border: 1.5px solid;
+    padding-left: 25px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    height: 6vh;
+    width: 250px;
+}
+
+.input-drop {
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    width: 330px;
+    height: 25vh;
+    background-color: transparent;
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    display: none;
+}
+
+.subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    background-color: transparent;
+    width: 320px;
+    height: 27vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+
+.subscribe p {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe span {
+    font-size: 15px;
+    color: white;
+    text-align: start;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1vh;
+}
+
+.button-subscribe {
+    background-color: rgb(29, 155, 240);
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 6.5vh;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.second-subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.418);
+    background-color: transparent;
+    width: 320px;
+    height: 68vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.what {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.what:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s ease-out;
+}
+
+.happening {
+    line-height: 1.7vh;
+}
+
+h4 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.span {
+    color: grey;
+    font-size: 14.5px;
+}
+
+.show-max {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.thrid-subscribe {
+    border: 1.5px solid rgba(128, 128, 128, 0.347);
+    background-color: transparent;
+    width: 330px;
+    height: 48vh;
+    border-radius: 5vh;
+    display: flex;
+    gap: 3.3vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.happenings {
+    line-height: 1vh;
+    display: flex;
+    gap: 5px;
+}
+
+.whats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.over-whats:hover {
+    background-color: rgba(128, 128, 128, 0.418);
+    transition: all 0.35s ease-out;
+}
+
+.happenings img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.whats span {
+    color: grey;
+    font-size: 14.5px;
+    padding-left: 35px;
+}
+
+.follow button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    font-size: 17px;
+    height: 5.5vh;
+}
+
+.over-whats {
+    display: flex;
+    justify-content: space-between;
+}
+.under-everything{
+    width: 100%;
+    height: 5vh;
+    display: none;
+}
+.on-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* .second-aside-ends */
+
+
+@media screen and (max-width: 1029.33px) {
+    .profile-nav {
+        width: 54%;
+    }
+    .first-aside{
+        width: 10%;
+    }
+    .imgs{
+        padding-left: 10px;
+    }
+    .div-input{
+        width: 300px;
+    }
+    .subscribe{
+        width: 300px;
+    }
+    .second-subscribe{
+        width: 300px;
+    }
+    .main{
+        width: 56%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .second-aside{
+        display: none;
+    }
+    .main{
+        width: 70%;
+    }
+    .profile-nav{
+        width: 70%;
+    }
+    .people-to-follow{
+        font-size: 60%;
+    }
+    .over-post-image img{
+        width: 85%;}
+}
+
+@media screen and (max-width: 700px) {
+    .line-container button{
+        font-size: 50%;
+    }
+    .main{
+        width: 90%;
+    }
+    .profile-nav{
+        width: 82%;
+    }
+    .line-drop-down{
+        width: 100%;
+    }
+    .down span{
+        font-size: 12px;
+    }
+    .span{
+        font-size: 12px;
+    }
+    .blue-verify{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .down-icons{
+        display: none;
+    }
+    .under-froms{
+        font-size: 11px;
+    }
+    .from-from{
+        font-size: 13px;
+    }
+    .over-post-image img{
+        width: 85%;
+        height: 33vh;
+    }
+    .profile-nav h3{
+        font-size: 15px;
+    }
+    .profile-nav span{
+        font-size: 13.5px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .down span{
+        display: none;
+    }
+    .over-dee p{
+        font-size: 14px;
+    }
+    .over-dee span{
+        font-size: 13px;
+    }
+    .top button{
+        width: 50px;
+        height: 5vh;
+    }
+    .over-A{
+        width: 80px;
+        height: 80px;
+        margin-top: 2.5vh;
+        font-size: 33px;
+    }
+    .edit-profile{
+        font-size: 14px;
+        width: 100px;
+        height: 5vh;
+        padding: 0.5vh;
+    }
+    .first-p{
+        font-size: 15px;
+    }
+    .get-verified{
+        width: 100px;
+        height: 4vh;
+    }
+    .get-verified img{
+        width: 15px;
+        height: 15px;
+    }
+    .get-verified p{
+        font-weight: 0;
+        font-size: 12px;
+    }
+    .nickname{
+        font-size: 13.5px;
+    }
+    .over-nick-name p{
+        font-size: 13.5px;
+    }
+    .line-drop-downs{
+        width: 100%;
+    }
+    .under-highlight span{
+        font-size: 13px;
+    }
+    .under-highlight h1{
+        font-size: 20px;
+    }
+    .under-highlight button{
+        width: 100px;
+        height: 6vh;
+    }
+    .hun-hun{
+        display: none;
+    }
+    .hun-hun-hun{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .first-aside{
+        display: none;
+    }
+    .under-everything{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        background-color: black;
+        padding-top: 0.7vh;
+        border-top: 1.5px solid rgba(128, 128, 128, 0.347);
+    }
+    
+     .people-to-follow{
+        height: 8.5vh;
+     }
+}
+
+@media screen and (max-width: 340px) {
+    .hun-hun-hun{
+        display: none;
+    }
+    .hun-hun-hun-hun{
+        display: none;
+    }
+    .get-verified p{
+        font-size: 12px;
+    }
+    .dee img{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+    }
+    .top button{
+        background-color: white;
+        color: black;
+        font-size: 13px;
+        height: 4vh;
+        border: none;
+        border-radius: 6vh;
+        width: 90px;
+    }
+
+}
+
